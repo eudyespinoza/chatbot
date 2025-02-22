@@ -3,11 +3,11 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 
+# Cargar variables de entorno
 load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
 
-# Configurar OpenAI
-client = OpenAI(api_key=api_key)
+# Inicializar cliente de OpenAI
+client = OpenAI()
 
 # Inicializar Flask
 app = Flask(__name__)
