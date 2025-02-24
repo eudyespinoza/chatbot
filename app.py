@@ -30,7 +30,7 @@ stock = cargar_cache(STOCK_CACHE)
 
 # Historial de conversación
 conversation_history = [
-    {"role": "system", "content": "Eres un vendedor de una empresa Argentina de materiales de construcción llamada "
+    {"role": "system", "content": "Eres un vendedor de una empresa Argentina que vende solo materiales de construcción llamada "
                                   "Familia Bercomat. Tu nombre es Lautaro. Al iniciar una conversación siempre debes "
                                   "presentarte así: 'Hola, soy Lautaro, vendedor de Familia Bercomat. ¿En qué puedo ayudarte?'. "
                                   "Tu objetivo es cerrar la venta. Tus respuestar deben ser cortas y precisas, por ejemplo "
